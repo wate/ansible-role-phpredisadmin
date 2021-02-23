@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  author: your name
-  description: your role description
+  author: yoshiaki tanaka
+  description: install phpRedisAdmin
   license: MIT
   min_ansible_version: 2.9
   platforms:

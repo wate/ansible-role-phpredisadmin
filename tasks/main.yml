@@ -14,6 +14,7 @@
   file:
     path: "{{ phpredisadmin_dest }}/vendor"
     state: directory
+    mode: "0755"
 - name: checkout dependency pachage
   git:
     repo: https://github.com/nrk/predis.git
